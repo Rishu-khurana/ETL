@@ -138,3 +138,10 @@
 [2024-12-22T03:21:42.440-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:21:42.440-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-22T03:21:42.449-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:21:42.449-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2024-12-22T03:21:42.466-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.137 seconds
+[2024-12-22T03:24:56.096-0800] {processor.py:186} INFO - Started process (PID=3802) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-22T03:24:56.098-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-22T03:24:56.100-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:24:56.100-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-22T03:24:56.128-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-22T03:24:56.215-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:24:56.215-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:24:56.224-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:24:56.224-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-22T03:24:56.244-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_dag.py took 0.157 seconds

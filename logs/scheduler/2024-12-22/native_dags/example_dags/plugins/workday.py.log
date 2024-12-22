@@ -118,3 +118,9 @@
 [2024-12-22T03:21:15.567-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:21:15.567-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
 [2024-12-22T03:21:15.882-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
 [2024-12-22T03:21:15.972-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.865 seconds
+[2024-12-22T03:24:26.871-0800] {processor.py:186} INFO - Started process (PID=3750) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-12-22T03:24:26.873-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-12-22T03:24:26.875-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:24:26.874-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-12-22T03:24:27.242-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:24:27.242-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:24:27.666-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-12-22T03:24:27.748-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.885 seconds
