@@ -68,3 +68,10 @@
 [2024-12-22T03:20:41.424-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:20:41.424-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-22T03:20:41.441-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:20:41.441-0800] {dag.py:4180} INFO - Setting next_dagrun for example_weekday_branch_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
 [2024-12-22T03:20:41.457-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.138 seconds
+[2024-12-22T03:27:09.607-0800] {processor.py:186} INFO - Started process (PID=4102) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-12-22T03:27:09.609-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2024-12-22T03:27:09.610-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:27:09.610-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-12-22T03:27:09.622-0800] {processor.py:925} INFO - DAG(s) 'example_weekday_branch_operator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2024-12-22T03:27:09.713-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:27:09.712-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:27:09.730-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:27:09.730-0800] {dag.py:4180} INFO - Setting next_dagrun for example_weekday_branch_operator to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T03:27:09.747-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.145 seconds

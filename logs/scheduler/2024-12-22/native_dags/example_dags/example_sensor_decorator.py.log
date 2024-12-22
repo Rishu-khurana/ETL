@@ -158,3 +158,11 @@
 [2024-12-22T03:22:46.682-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:22:46.682-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-22T03:22:46.691-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:22:46.691-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
 [2024-12-22T03:22:46.707-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.830 seconds
+[2024-12-22T03:26:02.102-0800] {processor.py:186} INFO - Started process (PID=3991) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-22T03:26:02.103-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2024-12-22T03:26:02.105-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:26:02.104-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-22T03:26:02.141-0800] {processor.py:925} INFO - DAG(s) 'example_sensor_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2024-12-22T03:26:02.589-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:26:02.589-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:26:02.942-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:26:02.942-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:26:02.952-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:26:02.952-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2024-12-22T03:26:02.969-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.876 seconds
