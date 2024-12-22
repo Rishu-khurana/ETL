@@ -68,3 +68,10 @@
 [2024-12-22T03:23:54.299-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:23:54.298-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-22T03:23:54.311-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:23:54.311-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
 [2024-12-22T03:23:54.328-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.165 seconds
+[2024-12-22T03:30:24.985-0800] {processor.py:186} INFO - Started process (PID=4416) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-12-22T03:30:24.987-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-12-22T03:30:24.989-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:30:24.988-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-12-22T03:30:25.004-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-12-22T03:30:25.102-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:30:25.102-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:30:25.112-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:30:25.112-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-12-22T03:30:25.128-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.151 seconds

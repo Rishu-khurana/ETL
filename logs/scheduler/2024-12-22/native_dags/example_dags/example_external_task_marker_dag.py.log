@@ -106,3 +106,12 @@
 [2024-12-22T03:23:35.216-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:23:35.215-0800] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
 [2024-12-22T03:23:35.218-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:23:35.218-0800] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
 [2024-12-22T03:23:35.233-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.189 seconds
+[2024-12-22T03:30:04.239-0800] {processor.py:186} INFO - Started process (PID=4383) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-12-22T03:30:04.241-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2024-12-22T03:30:04.242-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:30:04.242-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-12-22T03:30:04.255-0800] {processor.py:925} INFO - DAG(s) 'example_external_task_marker_child', 'example_external_task_marker_parent' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2024-12-22T03:30:04.807-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:30:04.807-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:30:05.276-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:30:05.275-0800] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-22T03:30:05.286-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:30:05.286-0800] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2024-12-22T03:30:05.290-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:30:05.290-0800] {dag.py:4180} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2024-12-22T03:30:05.306-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.072 seconds

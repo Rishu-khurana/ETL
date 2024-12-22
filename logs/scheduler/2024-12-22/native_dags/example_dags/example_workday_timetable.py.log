@@ -166,3 +166,19 @@
 [2024-12-22T03:25:11.946-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:25:11.945-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-22T03:25:12.017-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:25:12.016-0800] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-04 00:00:00+00:00, run_after=2021-01-05 00:00:00+00:00
 [2024-12-22T03:25:12.039-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 1.258 seconds
+[2024-12-22T03:28:26.382-0800] {processor.py:186} INFO - Started process (PID=4269) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-12-22T03:28:26.384-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-12-22T03:28:26.386-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:28:26.385-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-12-22T03:28:26.882-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:28:26.881-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:28:27.341-0800] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-12-22T03:28:27.471-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:28:27.471-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:28:27.523-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:28:27.523-0800] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-04 00:00:00+00:00, run_after=2021-01-05 00:00:00+00:00
+[2024-12-22T03:28:27.567-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 1.193 seconds
+[2024-12-22T03:31:45.563-0800] {processor.py:186} INFO - Started process (PID=4543) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-12-22T03:31:45.565-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-12-22T03:31:45.566-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:31:45.566-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-12-22T03:31:46.084-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:31:46.084-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:31:46.582-0800] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-12-22T03:31:46.721-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:31:46.721-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:31:46.769-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:31:46.769-0800] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-04 00:00:00+00:00, run_after=2021-01-05 00:00:00+00:00
+[2024-12-22T03:31:46.787-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 1.233 seconds
