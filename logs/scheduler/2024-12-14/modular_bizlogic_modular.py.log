@@ -1,0 +1,160 @@
+[2024-12-14T09:20:49.430-0800] {processor.py:186} INFO - Started process (PID=22142) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:20:49.431-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T09:20:49.433-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:20:49.432-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:20:49.955-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:20:49.955-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:20:50.464-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:20:50.462-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T09:20:50.465-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:20:50.614-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.189 seconds
+[2024-12-14T09:22:58.317-0800] {processor.py:186} INFO - Started process (PID=22250) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:22:58.319-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T09:22:58.320-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:22:58.320-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:22:58.851-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:22:58.851-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:22:59.399-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:22:59.396-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T09:22:59.400-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:22:59.529-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.217 seconds
+[2024-12-14T09:26:00.707-0800] {processor.py:186} INFO - Started process (PID=22395) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:26:00.709-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T09:26:00.711-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:26:00.711-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:26:01.197-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:26:01.196-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:26:01.711-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:26:01.707-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T09:26:01.712-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:26:01.887-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.186 seconds
+[2024-12-14T09:29:02.814-0800] {processor.py:186} INFO - Started process (PID=22554) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:29:02.816-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T09:29:02.817-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:29:02.817-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:29:03.170-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:29:03.170-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:29:03.468-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:29:03.466-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T09:29:03.469-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:29:03.598-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 0.790 seconds
+[2024-12-14T09:31:56.816-0800] {processor.py:186} INFO - Started process (PID=22704) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:31:56.817-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T09:31:56.819-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:31:56.818-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:31:57.185-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:31:57.185-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:31:57.496-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:31:57.491-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T09:31:57.497-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:31:57.623-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 0.813 seconds
+[2024-12-14T09:34:52.471-0800] {processor.py:186} INFO - Started process (PID=22847) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:34:52.473-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T09:34:52.474-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:34:52.474-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:34:52.946-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:34:52.946-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:34:53.437-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:34:53.435-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T09:34:53.438-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:34:53.602-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.136 seconds
+[2024-12-14T09:37:47.627-0800] {processor.py:186} INFO - Started process (PID=22991) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:37:47.629-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T09:37:47.631-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:37:47.631-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:37:48.095-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:37:48.094-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:37:48.559-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:37:48.556-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T09:37:48.559-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:37:48.692-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.070 seconds
+[2024-12-14T09:40:45.099-0800] {processor.py:186} INFO - Started process (PID=23134) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:40:45.101-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T09:40:45.102-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:40:45.102-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:40:45.563-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:40:45.562-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:40:46.022-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:40:46.020-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T09:40:46.023-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:40:46.150-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.058 seconds
+[2024-12-14T09:43:44.326-0800] {processor.py:186} INFO - Started process (PID=23279) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:43:44.328-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T09:43:44.329-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:43:44.329-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:43:44.675-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:43:44.675-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:43:45.026-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:43:45.023-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T09:43:45.026-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T09:43:45.151-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 0.830 seconds
+[2024-12-14T11:23:20.394-0800] {processor.py:186} INFO - Started process (PID=23508) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T11:23:20.396-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-14T11:23:20.398-0800] {logging_mixin.py:190} INFO - [2024-12-14T11:23:20.397-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T11:23:20.892-0800] {logging_mixin.py:190} INFO - [2024-12-14T11:23:20.892-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T11:23:21.361-0800] {logging_mixin.py:190} INFO - [2024-12-14T11:23:21.358-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py", line 14, in <module>
+    exec(open('./etl_bizlogic_modular.py').read())
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './etl_bizlogic_modular.py'
+[2024-12-14T11:23:21.361-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-14T11:23:21.549-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.163 seconds

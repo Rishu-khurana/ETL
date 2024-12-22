@@ -1,0 +1,14 @@
+[2024-12-16T00:47:16.824-0800] {processor.py:186} INFO - Started process (PID=44563) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-16T00:47:16.826-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-16T00:47:16.827-0800] {logging_mixin.py:190} INFO - [2024-12-16T00:47:16.827-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-16T00:47:16.836-0800] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-16T00:47:16.926-0800] {logging_mixin.py:190} INFO - [2024-12-16T00:47:16.926-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T00:47:16.942-0800] {logging_mixin.py:190} INFO - [2024-12-16T00:47:16.942-0800] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T00:47:16.956-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py took 0.137 seconds
+[2024-12-16T09:57:04.345-0800] {processor.py:186} INFO - Started process (PID=44845) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-16T09:57:04.347-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2024-12-16T09:57:04.349-0800] {logging_mixin.py:190} INFO - [2024-12-16T09:57:04.348-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-16T09:57:04.356-0800] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py
+[2024-12-16T09:57:04.437-0800] {logging_mixin.py:190} INFO - [2024-12-16T09:57:04.436-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T09:57:04.452-0800] {logging_mixin.py:190} INFO - [2024-12-16T09:57:04.451-0800] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T09:57:04.465-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_labels.py took 0.126 seconds

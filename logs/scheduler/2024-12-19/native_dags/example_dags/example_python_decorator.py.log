@@ -1,0 +1,224 @@
+[2024-12-18T16:08:29.498-0800] {processor.py:186} INFO - Started process (PID=60673) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T16:08:29.499-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-18T16:08:29.501-0800] {logging_mixin.py:190} INFO - [2024-12-18T16:08:29.500-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T16:08:29.545-0800] {logging_mixin.py:190} INFO - [2024-12-18T16:08:29.544-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-18T16:08:29.547-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T16:08:29.645-0800] {logging_mixin.py:190} INFO - [2024-12-18T16:08:29.644-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T16:08:29.654-0800] {logging_mixin.py:190} INFO - [2024-12-18T16:08:29.654-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-18T16:08:29.671-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.183 seconds
+[2024-12-18T16:15:39.386-0800] {processor.py:186} INFO - Started process (PID=60909) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T16:15:39.390-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-18T16:15:39.392-0800] {logging_mixin.py:190} INFO - [2024-12-18T16:15:39.392-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T16:15:39.453-0800] {logging_mixin.py:190} INFO - [2024-12-18T16:15:39.452-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-18T16:15:39.455-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T16:15:39.583-0800] {logging_mixin.py:190} INFO - [2024-12-18T16:15:39.582-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T16:15:39.595-0800] {logging_mixin.py:190} INFO - [2024-12-18T16:15:39.595-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-18T16:15:39.628-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.247 seconds
+[2024-12-18T18:55:10.978-0800] {processor.py:186} INFO - Started process (PID=61204) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T18:55:10.992-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-18T18:55:11.004-0800] {logging_mixin.py:190} INFO - [2024-12-18T18:55:11.002-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T18:55:11.311-0800] {logging_mixin.py:190} INFO - [2024-12-18T18:55:11.309-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-18T18:55:11.338-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T18:55:12.073-0800] {logging_mixin.py:190} INFO - [2024-12-18T18:55:12.071-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T18:55:12.154-0800] {logging_mixin.py:190} INFO - [2024-12-18T18:55:12.153-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-18T18:55:12.276-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 1.356 seconds
+[2024-12-18T23:00:24.784-0800] {processor.py:186} INFO - Started process (PID=61613) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T23:00:24.788-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-18T23:00:24.790-0800] {logging_mixin.py:190} INFO - [2024-12-18T23:00:24.790-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T23:00:24.842-0800] {logging_mixin.py:190} INFO - [2024-12-18T23:00:24.841-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-18T23:00:24.847-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-18T23:00:25.001-0800] {logging_mixin.py:190} INFO - [2024-12-18T23:00:25.000-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-18T23:00:25.012-0800] {logging_mixin.py:190} INFO - [2024-12-18T23:00:25.011-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-18T23:00:25.051-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.285 seconds
+[2024-12-19T02:46:59.444-0800] {processor.py:186} INFO - Started process (PID=61988) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T02:46:59.457-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T02:46:59.465-0800] {logging_mixin.py:190} INFO - [2024-12-19T02:46:59.463-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T02:46:59.765-0800] {logging_mixin.py:190} INFO - [2024-12-19T02:46:59.764-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T02:46:59.786-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T02:47:00.525-0800] {logging_mixin.py:190} INFO - [2024-12-19T02:47:00.523-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T02:47:00.606-0800] {logging_mixin.py:190} INFO - [2024-12-19T02:47:00.605-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T02:47:00.749-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 1.360 seconds
+[2024-12-19T05:06:37.184-0800] {processor.py:186} INFO - Started process (PID=62324) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T05:06:37.187-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T05:06:37.189-0800] {logging_mixin.py:190} INFO - [2024-12-19T05:06:37.189-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T05:06:37.250-0800] {logging_mixin.py:190} INFO - [2024-12-19T05:06:37.250-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T05:06:37.254-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T05:06:37.383-0800] {logging_mixin.py:190} INFO - [2024-12-19T05:06:37.381-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T05:06:37.395-0800] {logging_mixin.py:190} INFO - [2024-12-19T05:06:37.394-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T05:06:37.413-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.236 seconds
+[2024-12-19T05:53:40.796-0800] {processor.py:186} INFO - Started process (PID=62583) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T05:53:40.798-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T05:53:40.799-0800] {logging_mixin.py:190} INFO - [2024-12-19T05:53:40.799-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T05:53:40.840-0800] {logging_mixin.py:190} INFO - [2024-12-19T05:53:40.840-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T05:53:40.843-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T05:53:40.951-0800] {logging_mixin.py:190} INFO - [2024-12-19T05:53:40.949-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T05:53:40.976-0800] {logging_mixin.py:190} INFO - [2024-12-19T05:53:40.975-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T05:53:41.002-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.215 seconds
+[2024-12-19T07:33:49.546-0800] {processor.py:186} INFO - Started process (PID=62826) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:33:49.548-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T07:33:49.550-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:33:49.549-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:33:49.581-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:33:49.581-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T07:33:49.583-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:33:49.672-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:33:49.672-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T07:33:49.681-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:33:49.681-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T07:33:49.698-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.157 seconds
+[2024-12-19T07:37:09.340-0800] {processor.py:186} INFO - Started process (PID=62986) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:37:09.344-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T07:37:09.345-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:37:09.345-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:37:09.378-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:37:09.378-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T07:37:09.380-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:37:09.468-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:37:09.468-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T07:37:09.477-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:37:09.476-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T07:37:09.495-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.159 seconds
+[2024-12-19T07:40:06.846-0800] {processor.py:186} INFO - Started process (PID=63130) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:40:06.849-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T07:40:06.850-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:40:06.850-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:40:06.883-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:40:06.882-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T07:40:06.884-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:40:06.972-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:40:06.972-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T07:40:06.981-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:40:06.981-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T07:40:06.998-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.156 seconds
+[2024-12-19T07:43:04.056-0800] {processor.py:186} INFO - Started process (PID=63272) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:43:04.059-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T07:43:04.060-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:43:04.060-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:43:04.095-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:43:04.094-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T07:43:04.096-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:43:04.184-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:43:04.184-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T07:43:04.193-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:43:04.192-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T07:43:04.210-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.162 seconds
+[2024-12-19T07:46:00.420-0800] {processor.py:186} INFO - Started process (PID=63419) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:46:00.423-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T07:46:00.425-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:46:00.424-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:46:00.457-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:46:00.457-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T07:46:00.459-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:46:00.538-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:46:00.538-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T07:46:00.546-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:46:00.546-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T07:46:00.567-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.154 seconds
+[2024-12-19T07:48:52.979-0800] {processor.py:186} INFO - Started process (PID=63592) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:48:52.982-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T07:48:52.983-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:48:52.983-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:48:53.014-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:48:53.014-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T07:48:53.016-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:48:53.097-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:48:53.096-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T07:48:53.105-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:48:53.105-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T07:48:53.127-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.154 seconds
+[2024-12-19T07:51:50.125-0800] {processor.py:186} INFO - Started process (PID=63736) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:51:50.128-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T07:51:50.129-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:51:50.129-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:51:50.161-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:51:50.160-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T07:51:50.162-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:51:50.250-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:51:50.249-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T07:51:50.259-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:51:50.259-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T07:51:50.274-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.155 seconds
+[2024-12-19T07:54:49.920-0800] {processor.py:186} INFO - Started process (PID=63879) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:54:49.923-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T07:54:49.924-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:54:49.924-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:54:49.957-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:54:49.956-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T07:54:49.959-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:54:50.046-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:54:50.045-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T07:54:50.055-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:54:50.055-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T07:54:50.072-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.159 seconds
+[2024-12-19T07:57:49.005-0800] {processor.py:186} INFO - Started process (PID=64024) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:57:49.008-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T07:57:49.009-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:57:49.009-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:57:49.044-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:57:49.043-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T07:57:49.046-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T07:57:49.135-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:57:49.135-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T07:57:49.145-0800] {logging_mixin.py:190} INFO - [2024-12-19T07:57:49.144-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T07:57:49.167-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.167 seconds
+[2024-12-19T08:00:49.381-0800] {processor.py:186} INFO - Started process (PID=64169) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:00:49.384-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:00:49.385-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:00:49.385-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:00:49.418-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:00:49.418-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:00:49.420-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:00:49.512-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:00:49.512-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:00:49.521-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:00:49.521-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:00:49.538-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.164 seconds
+[2024-12-19T08:03:52.659-0800] {processor.py:186} INFO - Started process (PID=64314) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:03:52.662-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:03:52.663-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:03:52.663-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:03:52.735-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:03:52.734-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:03:52.741-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:03:52.880-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:03:52.880-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:03:52.895-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:03:52.895-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:03:52.946-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.294 seconds
+[2024-12-19T08:07:14.423-0800] {processor.py:186} INFO - Started process (PID=64467) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:07:14.425-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:07:14.426-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:07:14.426-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:07:14.459-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:07:14.459-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:07:14.461-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:07:14.549-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:07:14.548-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:07:14.557-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:07:14.557-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:07:14.575-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.159 seconds
+[2024-12-19T08:10:33.343-0800] {processor.py:186} INFO - Started process (PID=64617) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:10:33.345-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:10:33.347-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:10:33.346-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:10:33.383-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:10:33.383-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:10:33.385-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:10:33.479-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:10:33.479-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:10:33.489-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:10:33.489-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:10:33.508-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.172 seconds
+[2024-12-19T08:13:45.877-0800] {processor.py:186} INFO - Started process (PID=64764) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:13:45.878-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:13:45.880-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:13:45.879-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:13:45.914-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:13:45.913-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:13:45.916-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:13:46.006-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:13:46.006-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:13:46.015-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:13:46.015-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:13:46.038-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.167 seconds
+[2024-12-19T08:17:12.812-0800] {processor.py:186} INFO - Started process (PID=64918) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:17:12.814-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:17:12.815-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:17:12.815-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:17:12.847-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:17:12.847-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:17:12.849-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:17:12.937-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:17:12.936-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:17:12.946-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:17:12.946-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:17:12.963-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.156 seconds
+[2024-12-19T08:20:33.801-0800] {processor.py:186} INFO - Started process (PID=65079) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:20:33.804-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:20:33.805-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:20:33.805-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:20:33.841-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:20:33.841-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:20:33.843-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:20:33.938-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:20:33.937-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:20:33.947-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:20:33.947-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:20:33.972-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.178 seconds
+[2024-12-19T08:23:43.322-0800] {processor.py:186} INFO - Started process (PID=65233) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:23:43.324-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:23:43.326-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:23:43.325-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:23:43.362-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:23:43.362-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:23:43.364-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:23:43.463-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:23:43.463-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:23:43.473-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:23:43.473-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:23:43.492-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.178 seconds
+[2024-12-19T08:26:59.086-0800] {processor.py:186} INFO - Started process (PID=65383) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:26:59.089-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:26:59.090-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:26:59.090-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:26:59.125-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:26:59.125-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:26:59.127-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:26:59.226-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:26:59.225-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:26:59.235-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:26:59.235-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:26:59.259-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.180 seconds
+[2024-12-19T08:30:33.311-0800] {processor.py:186} INFO - Started process (PID=65538) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:30:33.313-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T08:30:33.314-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:30:33.314-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:30:33.365-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:30:33.365-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T08:30:33.367-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T08:30:33.453-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:30:33.453-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T08:30:33.462-0800] {logging_mixin.py:190} INFO - [2024-12-19T08:30:33.462-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T08:30:33.487-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.182 seconds
+[2024-12-19T10:08:56.692-0800] {processor.py:186} INFO - Started process (PID=65771) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T10:08:56.694-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T10:08:56.695-0800] {logging_mixin.py:190} INFO - [2024-12-19T10:08:56.695-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T10:08:56.724-0800] {logging_mixin.py:190} INFO - [2024-12-19T10:08:56.724-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T10:08:56.726-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T10:08:56.812-0800] {logging_mixin.py:190} INFO - [2024-12-19T10:08:56.812-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T10:08:56.820-0800] {logging_mixin.py:190} INFO - [2024-12-19T10:08:56.820-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T10:08:56.837-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 0.149 seconds
+[2024-12-19T13:40:19.017-0800] {processor.py:186} INFO - Started process (PID=66226) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T13:40:19.033-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py for tasks to queue
+[2024-12-19T13:40:19.045-0800] {logging_mixin.py:190} INFO - [2024-12-19T13:40:19.042-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T13:40:19.386-0800] {logging_mixin.py:190} INFO - [2024-12-19T13:40:19.383-0800] {example_python_decorator.py:80} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-19T13:40:19.437-0800] {processor.py:925} INFO - DAG(s) 'example_python_decorator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py
+[2024-12-19T13:40:20.496-0800] {logging_mixin.py:190} INFO - [2024-12-19T13:40:20.489-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T13:40:20.597-0800] {logging_mixin.py:190} INFO - [2024-12-19T13:40:20.596-0800] {dag.py:4180} INFO - Setting next_dagrun for example_python_decorator to None, run_after=None
+[2024-12-19T13:40:20.814-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_python_decorator.py took 1.860 seconds

@@ -1,0 +1,160 @@
+[2024-12-22T02:14:28.987-0800] {processor.py:186} INFO - Started process (PID=99628) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:14:28.992-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:14:28.995-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:14:28.994-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:14:30.769-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:14:30.768-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:14:31.951-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:14:32.290-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:14:32.289-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:14:32.363-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:14:32.363-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:14:32.415-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 3.445 seconds
+[2024-12-22T02:21:28.114-0800] {processor.py:186} INFO - Started process (PID=99921) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:21:28.116-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:21:28.119-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:21:28.118-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:21:29.068-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:21:29.068-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:21:29.750-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:21:29.929-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:21:29.928-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:21:29.961-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:21:29.961-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:21:29.989-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.891 seconds
+[2024-12-22T02:26:13.993-0800] {processor.py:186} INFO - Started process (PID=286) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:26:13.995-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:26:13.997-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:26:13.996-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:26:14.539-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:26:14.538-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:26:15.085-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:26:15.176-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:26:15.176-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:26:15.199-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:26:15.198-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:26:15.212-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.225 seconds
+[2024-12-22T02:29:30.612-0800] {processor.py:186} INFO - Started process (PID=471) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:29:30.614-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:29:30.616-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:29:30.616-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:29:31.013-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:29:31.012-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:29:31.331-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:29:31.419-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:29:31.418-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:29:31.436-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:29:31.436-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:29:31.452-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 0.847 seconds
+[2024-12-22T02:32:51.694-0800] {processor.py:186} INFO - Started process (PID=709) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:32:51.697-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:32:51.699-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:32:51.698-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:32:52.171-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:32:52.170-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:32:52.555-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:32:52.647-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:32:52.646-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:32:52.665-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:32:52.665-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:32:52.680-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 0.990 seconds
+[2024-12-22T02:36:03.893-0800] {processor.py:186} INFO - Started process (PID=860) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:36:03.895-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:36:03.896-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:36:03.896-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:36:04.364-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:36:04.363-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:36:04.750-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:36:04.842-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:36:04.841-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:36:04.859-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:36:04.859-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:36:04.875-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 0.991 seconds
+[2024-12-22T02:39:19.603-0800] {processor.py:186} INFO - Started process (PID=1095) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:39:19.606-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:39:19.607-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:39:19.607-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:39:20.104-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:39:20.104-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:39:20.546-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:39:20.632-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:39:20.632-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:39:20.653-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:39:20.653-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:39:20.670-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.073 seconds
+[2024-12-22T02:42:30.021-0800] {processor.py:186} INFO - Started process (PID=1339) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:42:30.023-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:42:30.024-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:42:30.024-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:42:30.458-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:42:30.457-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:42:30.915-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:42:30.998-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:42:30.998-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:42:31.015-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:42:31.015-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:42:31.030-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.019 seconds
+[2024-12-22T02:45:43.593-0800] {processor.py:186} INFO - Started process (PID=1584) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:45:43.595-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:45:43.597-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:45:43.597-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:45:44.107-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:45:44.106-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:45:44.498-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:45:44.597-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:45:44.597-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:45:44.620-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:45:44.619-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:45:44.634-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.046 seconds
+[2024-12-22T02:48:59.350-0800] {processor.py:186} INFO - Started process (PID=1771) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:48:59.352-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:48:59.354-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:48:59.353-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:48:59.727-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:48:59.727-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:49:00.037-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:49:00.129-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:49:00.129-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:49:00.145-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:49:00.145-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:49:00.161-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 0.817 seconds
+[2024-12-22T02:52:10.282-0800] {processor.py:186} INFO - Started process (PID=1920) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:52:10.284-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:52:10.286-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:52:10.286-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:52:10.748-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:52:10.747-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:52:11.166-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:52:11.253-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:52:11.253-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:52:11.270-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:52:11.270-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:52:11.284-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.010 seconds
+[2024-12-22T02:55:17.029-0800] {processor.py:186} INFO - Started process (PID=2078) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:55:17.032-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:55:17.033-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:55:17.033-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:55:17.510-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:55:17.510-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:55:17.936-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:55:18.025-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:55:18.024-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:55:18.042-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:55:18.042-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:55:18.074-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.049 seconds
+[2024-12-22T02:58:19.763-0800] {processor.py:186} INFO - Started process (PID=2225) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:58:19.765-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T02:58:19.767-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:58:19.767-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:58:20.263-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:58:20.263-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T02:58:20.681-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T02:58:20.768-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:58:20.767-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:58:20.785-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:58:20.785-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T02:58:20.800-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.045 seconds
+[2024-12-22T03:01:38.458-0800] {processor.py:186} INFO - Started process (PID=2431) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:01:38.460-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T03:01:38.462-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:01:38.461-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:01:38.975-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:01:38.975-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:01:39.448-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:01:39.539-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:01:39.539-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:01:39.558-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:01:39.558-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T03:01:39.572-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.123 seconds
+[2024-12-22T03:04:49.458-0800] {processor.py:186} INFO - Started process (PID=2592) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:04:49.461-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T03:04:49.463-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:04:49.462-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:04:49.933-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:04:49.932-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:04:50.388-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:04:50.476-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:04:50.476-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:04:50.496-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:04:50.496-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T03:04:50.512-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.062 seconds
+[2024-12-22T03:08:01.571-0800] {processor.py:186} INFO - Started process (PID=2742) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:08:01.573-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T03:08:01.575-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:08:01.574-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:08:02.086-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:08:02.086-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:08:02.555-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:08:02.645-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:08:02.645-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:08:02.664-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:08:02.664-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T03:08:02.679-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.117 seconds
+[2024-12-22T03:11:19.855-0800] {processor.py:186} INFO - Started process (PID=2992) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:11:19.857-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T03:11:19.859-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:11:19.859-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:11:20.368-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:11:20.367-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:11:20.844-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:11:20.929-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:11:20.929-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:11:20.948-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:11:20.948-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T03:11:20.964-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.113 seconds
+[2024-12-22T03:14:31.058-0800] {processor.py:186} INFO - Started process (PID=3158) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:14:31.060-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T03:14:31.062-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:14:31.061-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:14:31.538-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:14:31.537-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:14:32.020-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:14:32.107-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:14:32.106-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:14:32.126-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:14:32.126-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T03:14:32.142-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.093 seconds
+[2024-12-22T03:17:40.662-0800] {processor.py:186} INFO - Started process (PID=3315) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:17:40.664-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T03:17:40.665-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:17:40.665-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:17:41.136-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:17:41.135-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:17:41.507-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:17:41.614-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:17:41.613-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:17:41.632-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:17:41.632-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T03:17:41.648-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 0.992 seconds
+[2024-12-22T03:20:51.883-0800] {processor.py:186} INFO - Started process (PID=3472) to work on /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:20:51.885-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py for tasks to queue
+[2024-12-22T03:20:51.887-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:20:51.886-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:20:52.381-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:20:52.380-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T03:20:52.878-0800] {processor.py:925} INFO - DAG(s) 'ALL_IN_ONE_Modular_etl' retrieved from /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py
+[2024-12-22T03:20:52.960-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:20:52.959-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:20:52.981-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:20:52.981-0800] {dag.py:4180} INFO - Setting next_dagrun for ALL_IN_ONE_Modular_etl to 2024-12-22 00:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-22T03:20:53.000-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/modular_bizlogic_modular.py took 1.126 seconds

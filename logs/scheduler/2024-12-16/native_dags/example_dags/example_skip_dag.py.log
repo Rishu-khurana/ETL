@@ -1,0 +1,21 @@
+[2024-12-15T18:41:17.092-0800] {processor.py:186} INFO - Started process (PID=44410) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-15T18:41:17.093-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-15T18:41:17.095-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:17.094-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-15T18:41:17.103-0800] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-15T18:41:17.188-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:17.187-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T18:41:17.203-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:17.203-0800] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T18:41:17.218-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.132 seconds
+[2024-12-16T06:53:21.720-0800] {processor.py:186} INFO - Started process (PID=44718) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-16T06:53:21.722-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-16T06:53:21.724-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:53:21.724-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-16T06:53:21.731-0800] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-16T06:53:21.819-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:53:21.819-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T06:53:21.834-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:53:21.833-0800] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T06:53:21.850-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.135 seconds
+[2024-12-16T14:49:48.421-0800] {processor.py:186} INFO - Started process (PID=44941) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-16T14:49:48.424-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-16T14:49:48.426-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:48.425-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-16T14:49:48.438-0800] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-16T14:49:48.533-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:48.532-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T14:49:48.549-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:48.549-0800] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T14:49:48.565-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 0.149 seconds

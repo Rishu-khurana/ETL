@@ -1,0 +1,39 @@
+[2024-12-17T16:28:37.045-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-17T16:28:37.124-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ALL_IN_ONE_Modular_etl.EXTRACT_TRANSFORM_LOAD scheduled__2024-12-17T00:00:00+00:00 [queued]>
+[2024-12-17T16:28:37.167-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ALL_IN_ONE_Modular_etl.EXTRACT_TRANSFORM_LOAD scheduled__2024-12-17T00:00:00+00:00 [queued]>
+[2024-12-17T16:28:37.169-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-17T16:28:37.249-0800] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): EXTRACT_TRANSFORM_LOAD> on 2024-12-17 00:00:00+00:00
+[2024-12-17T16:28:37.295-0800] {standard_task_runner.py:72} INFO - Started process 49151 to run task
+[2024-12-17T16:28:37.401-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ALL_IN_ONE_Modular_etl', 'EXTRACT_TRANSFORM_LOAD', 'scheduled__2024-12-17T00:00:00+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/modular_bizlogic_modular.py', '--cfg-path', '/var/folders/05/fw9xrgzd2xz986svxp5_g00w0000gn/T/tmpda897my1']
+[2024-12-17T16:28:37.443-0800] {standard_task_runner.py:105} INFO - Job 35: Subtask EXTRACT_TRANSFORM_LOAD
+[2024-12-17T16:28:38.090-0800] {task_command.py:467} INFO - Running <TaskInstance: ALL_IN_ONE_Modular_etl.EXTRACT_TRANSFORM_LOAD scheduled__2024-12-17T00:00:00+00:00 [running]> on host rishus-macbook-pro.local
+[2024-12-17T16:28:38.729-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ALL_IN_ONE_Modular_etl' AIRFLOW_CTX_TASK_ID='EXTRACT_TRANSFORM_LOAD' AIRFLOW_CTX_EXECUTION_DATE='2024-12-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-17T00:00:00+00:00'
+[2024-12-17T16:28:38.749-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-17T16:28:38.754-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-17T16:28:38.760-0800] {logging_mixin.py:190} INFO - Current task name:EXTRACT_TRANSFORM_LOAD state:running start_date:2024-12-18 00:28:37.126889+00:00
+[2024-12-17T16:28:38.765-0800] {logging_mixin.py:190} INFO - Dag name:ALL_IN_ONE_Modular_etl and current dag run status:running
+[2024-12-17T16:28:38.773-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-17T16:28:38.786-0800] {logging_mixin.py:190} INFO - What is your name
+[2024-12-17T16:28:38.791-0800] {logging_mixin.py:190} INFO - My name is Rishu
+[2024-12-17T16:28:38.851-0800] {logging_mixin.py:190} INFO - the value of e_rtn_obj obj is {extract_rtn_obj}
+[2024-12-17T16:28:38.857-0800] {logging_mixin.py:190} INFO - The value of ai is  Learning DE
+[2024-12-17T16:28:38.862-0800] {logging_mixin.py:190} INFO - Logic to transform data
+[2024-12-17T16:28:38.876-0800] {logging_mixin.py:190} INFO - the type of e_rtn_obj is <class 'pandas.core.frame.DataFrame'>
+[2024-12-17T16:28:38.883-0800] {logging_mixin.py:190} INFO - the value of e_rtn_obj is:
+[2024-12-17T16:28:39.054-0800] {logging_mixin.py:190} INFO -    cust_id     Name
+0        1    Rishu
+1        2     Ishu
+2        3  shanaya
+3        4     Rudr
+[2024-12-17T16:28:39.062-0800] {logging_mixin.py:190} INFO - the value of p1 is ETL
+[2024-12-17T16:28:39.067-0800] {logging_mixin.py:190} INFO - the value of p2 is PIPELINES
+[2024-12-17T16:28:39.072-0800] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-17T16:28:39.116-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-17T16:28:39.128-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ALL_IN_ONE_Modular_etl, task_id=EXTRACT_TRANSFORM_LOAD, run_id=scheduled__2024-12-17T00:00:00+00:00, execution_date=20241217T000000, start_date=20241218T002837, end_date=20241218T002839
+[2024-12-17T16:28:39.180-0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-17T16:28:39.185-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-17T16:28:39.191-0800] {logging_mixin.py:190} INFO - Dag name:ALL_IN_ONE_Modular_etl queued_at:2024-12-18 00:12:05.821289+00:00
+[2024-12-17T16:28:39.197-0800] {logging_mixin.py:190} INFO - Task hostname:rishus-macbook-pro.local operator:PythonOperator
+[2024-12-17T16:28:39.289-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-17T16:28:39.440-0800] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-17T16:28:39.445-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

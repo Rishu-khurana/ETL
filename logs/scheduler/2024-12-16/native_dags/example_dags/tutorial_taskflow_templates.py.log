@@ -1,0 +1,21 @@
+[2024-12-15T17:16:24.017-0800] {processor.py:186} INFO - Started process (PID=44290) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-15T17:16:24.019-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-15T17:16:24.020-0800] {logging_mixin.py:190} INFO - [2024-12-15T17:16:24.020-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-15T17:16:24.079-0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-15T17:16:24.177-0800] {logging_mixin.py:190} INFO - [2024-12-15T17:16:24.176-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T17:16:24.204-0800] {logging_mixin.py:190} INFO - [2024-12-15T17:16:24.203-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-15T17:16:24.222-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.215 seconds
+[2024-12-16T04:51:27.222-0800] {processor.py:186} INFO - Started process (PID=44637) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-16T04:51:27.224-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-16T04:51:27.225-0800] {logging_mixin.py:190} INFO - [2024-12-16T04:51:27.225-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-16T04:51:27.257-0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-16T04:51:27.350-0800] {logging_mixin.py:190} INFO - [2024-12-16T04:51:27.350-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T04:51:27.365-0800] {logging_mixin.py:190} INFO - [2024-12-16T04:51:27.365-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T04:51:27.380-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.165 seconds
+[2024-12-16T14:34:07.136-0800] {processor.py:186} INFO - Started process (PID=44890) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-16T14:34:07.139-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py for tasks to queue
+[2024-12-16T14:34:07.140-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:34:07.140-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-16T14:34:07.215-0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_templates' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py
+[2024-12-16T14:34:07.310-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:34:07.310-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T14:34:07.333-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:34:07.333-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_templates to 2024-12-15 00:00:00+00:00, run_after=2024-12-16 00:00:00+00:00
+[2024-12-16T14:34:07.348-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_templates.py took 0.217 seconds

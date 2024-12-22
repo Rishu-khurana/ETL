@@ -1,0 +1,140 @@
+[2024-12-22T02:15:33.672-0800] {processor.py:186} INFO - Started process (PID=99713) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:15:33.682-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:15:33.687-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:15:33.686-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:15:33.716-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:15:33.987-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:15:33.986-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:15:34.035-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:15:34.035-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:15:34.075-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.422 seconds
+[2024-12-22T02:21:56.037-0800] {processor.py:186} INFO - Started process (PID=99935) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:21:56.040-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:21:56.043-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:21:56.042-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:21:56.064-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:21:56.253-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:21:56.253-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:21:56.299-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:21:56.299-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:21:56.332-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.307 seconds
+[2024-12-22T02:26:31.606-0800] {processor.py:186} INFO - Started process (PID=298) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:26:31.608-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:26:31.610-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:26:31.609-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:26:31.619-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:26:31.714-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:26:31.714-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:26:31.730-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:26:31.730-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:26:31.746-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.147 seconds
+[2024-12-22T02:29:46.886-0800] {processor.py:186} INFO - Started process (PID=488) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:29:46.888-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:29:46.889-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:29:46.889-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:29:46.902-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:29:47.007-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:29:47.006-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:29:47.024-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:29:47.024-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:29:47.040-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.163 seconds
+[2024-12-22T02:33:07.186-0800] {processor.py:186} INFO - Started process (PID=722) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:33:07.188-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:33:07.189-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:33:07.189-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:33:07.198-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:33:07.297-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:33:07.297-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:33:07.315-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:33:07.314-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:33:07.330-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.152 seconds
+[2024-12-22T02:36:19.125-0800] {processor.py:186} INFO - Started process (PID=870) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:36:19.127-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:36:19.128-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:36:19.128-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:36:19.137-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:36:19.233-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:36:19.233-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:36:19.251-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:36:19.251-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:36:19.266-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.151 seconds
+[2024-12-22T02:39:35.322-0800] {processor.py:186} INFO - Started process (PID=1116) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:39:35.324-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:39:35.326-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:39:35.326-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:39:35.335-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:39:35.430-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:39:35.430-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:39:35.446-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:39:35.446-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:39:35.461-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.147 seconds
+[2024-12-22T02:42:45.359-0800] {processor.py:186} INFO - Started process (PID=1362) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:42:45.361-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:42:45.363-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:42:45.362-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:42:45.370-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:42:45.454-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:42:45.453-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:42:45.469-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:42:45.469-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:42:45.484-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.133 seconds
+[2024-12-22T02:45:59.547-0800] {processor.py:186} INFO - Started process (PID=1613) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:45:59.549-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:45:59.550-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:45:59.550-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:45:59.560-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:45:59.660-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:45:59.659-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:45:59.677-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:45:59.677-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:45:59.691-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.152 seconds
+[2024-12-22T02:49:14.816-0800] {processor.py:186} INFO - Started process (PID=1783) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:49:14.818-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:49:14.820-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:49:14.820-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:49:14.828-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:49:14.919-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:49:14.918-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:49:14.936-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:49:14.936-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:49:14.952-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.144 seconds
+[2024-12-22T02:52:25.393-0800] {processor.py:186} INFO - Started process (PID=1934) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:52:25.395-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:52:25.396-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:52:25.396-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:52:25.405-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:52:25.494-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:52:25.494-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:52:25.510-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:52:25.510-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:52:25.527-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.139 seconds
+[2024-12-22T02:55:32.210-0800] {processor.py:186} INFO - Started process (PID=2088) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:55:32.211-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:55:32.212-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:55:32.212-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:55:32.220-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:55:32.309-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:55:32.309-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:55:32.325-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:55:32.325-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:55:32.340-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.135 seconds
+[2024-12-22T02:58:36.537-0800] {processor.py:186} INFO - Started process (PID=2237) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:58:36.540-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T02:58:36.542-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:58:36.541-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:58:36.552-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T02:58:36.676-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:58:36.675-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T02:58:36.697-0800] {logging_mixin.py:190} INFO - [2024-12-22T02:58:36.697-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T02:58:36.715-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.191 seconds
+[2024-12-22T03:01:53.644-0800] {processor.py:186} INFO - Started process (PID=2441) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:01:53.646-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T03:01:53.648-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:01:53.648-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:01:53.656-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:01:53.744-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:01:53.743-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:01:53.763-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:01:53.762-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T03:01:53.828-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.193 seconds
+[2024-12-22T03:05:05.708-0800] {processor.py:186} INFO - Started process (PID=2602) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:05:05.710-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T03:05:05.711-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:05:05.711-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:05:05.718-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:05:05.815-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:05:05.814-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:05:05.833-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:05:05.833-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T03:05:05.848-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.145 seconds
+[2024-12-22T03:08:18.115-0800] {processor.py:186} INFO - Started process (PID=2754) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:08:18.118-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T03:08:18.120-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:08:18.119-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:08:18.127-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:08:18.219-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:08:18.218-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:08:18.235-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:08:18.235-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T03:08:18.250-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.144 seconds
+[2024-12-22T03:11:35.684-0800] {processor.py:186} INFO - Started process (PID=3002) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:11:35.686-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T03:11:35.687-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:11:35.687-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:11:35.695-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:11:35.789-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:11:35.788-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:11:35.807-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:11:35.807-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T03:11:35.822-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.143 seconds
+[2024-12-22T03:14:46.534-0800] {processor.py:186} INFO - Started process (PID=3168) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:14:46.536-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T03:14:46.538-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:14:46.538-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:14:46.546-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:14:46.637-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:14:46.636-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:14:46.653-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:14:46.653-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T03:14:46.669-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.143 seconds
+[2024-12-22T03:17:56.856-0800] {processor.py:186} INFO - Started process (PID=3326) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:17:56.858-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T03:17:56.859-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:17:56.859-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:17:56.869-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:17:56.962-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:17:56.961-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:17:56.976-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:17:56.976-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T03:17:56.992-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.140 seconds
+[2024-12-22T03:21:08.183-0800] {processor.py:186} INFO - Started process (PID=3486) to work on /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:21:08.186-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/dag.py for tasks to queue
+[2024-12-22T03:21:08.188-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:21:08.187-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:21:08.196-0800] {processor.py:925} INFO - DAG(s) 'ETL' retrieved from /Users/rishukhurana/airflow/dags/dag.py
+[2024-12-22T03:21:08.293-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:21:08.293-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T03:21:08.309-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:21:08.309-0800] {dag.py:4180} INFO - Setting next_dagrun for ETL to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-22T03:21:08.323-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/dag.py took 0.146 seconds

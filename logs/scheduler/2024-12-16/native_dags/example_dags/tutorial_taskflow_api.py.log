@@ -1,0 +1,21 @@
+[2024-12-15T17:16:35.462-0800] {processor.py:186} INFO - Started process (PID=44296) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-15T17:16:35.470-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-15T17:16:35.481-0800] {logging_mixin.py:190} INFO - [2024-12-15T17:16:35.479-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-15T17:16:35.725-0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-15T17:16:36.394-0800] {logging_mixin.py:190} INFO - [2024-12-15T17:16:36.392-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T17:16:36.466-0800] {logging_mixin.py:190} INFO - [2024-12-15T17:16:36.465-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-15T17:16:36.575-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 1.147 seconds
+[2024-12-16T05:41:57.418-0800] {processor.py:186} INFO - Started process (PID=44649) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-16T05:41:57.421-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-16T05:41:57.423-0800] {logging_mixin.py:190} INFO - [2024-12-16T05:41:57.423-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-16T05:41:57.454-0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-16T05:41:57.534-0800] {logging_mixin.py:190} INFO - [2024-12-16T05:41:57.534-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T05:41:57.542-0800] {logging_mixin.py:190} INFO - [2024-12-16T05:41:57.542-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-16T05:41:57.564-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.151 seconds
+[2024-12-16T14:34:13.513-0800] {processor.py:186} INFO - Started process (PID=44897) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-16T14:34:13.515-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2024-12-16T14:34:13.517-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:34:13.516-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-16T14:34:13.547-0800] {processor.py:925} INFO - DAG(s) 'tutorial_taskflow_api' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2024-12-16T14:34:13.621-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:34:13.620-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T14:34:13.629-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:34:13.629-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2024-12-16T14:34:13.649-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.142 seconds

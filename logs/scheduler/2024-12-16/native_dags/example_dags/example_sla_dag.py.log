@@ -1,0 +1,21 @@
+[2024-12-15T18:41:14.566-0800] {processor.py:186} INFO - Started process (PID=44401) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-15T18:41:14.568-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-12-15T18:41:14.569-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:14.569-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-15T18:41:14.618-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-15T18:41:14.725-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:14.724-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-15T18:41:14.751-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:14.751-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2024-12-16 02:38:00+00:00, run_after=2024-12-16 02:40:00+00:00
+[2024-12-15T18:41:14.771-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.211 seconds
+[2024-12-16T06:30:10.662-0800] {processor.py:186} INFO - Started process (PID=44711) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-16T06:30:10.671-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-12-16T06:30:10.681-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:30:10.679-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-16T06:30:10.944-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-16T06:30:11.631-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:30:11.629-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T06:30:11.768-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:30:11.767-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2024-12-16 14:28:00+00:00, run_after=2024-12-16 14:30:00+00:00
+[2024-12-16T06:30:11.882-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 1.260 seconds
+[2024-12-16T14:49:45.255-0800] {processor.py:186} INFO - Started process (PID=44939) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-16T14:49:45.257-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2024-12-16T14:49:45.258-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:45.258-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-16T14:49:45.289-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py
+[2024-12-16T14:49:45.365-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:45.365-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-16T14:49:45.387-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:45.386-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2024-12-16 22:46:00+00:00, run_after=2024-12-16 22:48:00+00:00
+[2024-12-16T14:49:45.411-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_sla_dag.py took 0.162 seconds

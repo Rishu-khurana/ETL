@@ -1,0 +1,39 @@
+[2024-12-15T18:41:09.960-0800] {processor.py:186} INFO - Started process (PID=44398) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-15T18:41:09.964-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-15T18:41:09.966-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:09.966-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-15T18:41:10.072-0800] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-15T18:41:10.706-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:10.706-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-15T18:41:11.255-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:11.255-0800] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-15T18:41:11.275-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:11.274-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-15T18:41:11.279-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:11.279-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-15T18:41:11.280-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:11.280-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-15T18:41:11.286-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:11.285-0800] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-15T18:41:11.289-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:11.289-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-15T18:41:11.289-0800] {logging_mixin.py:190} INFO - [2024-12-15T18:41:11.289-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-15T18:41:11.298-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 1.344 seconds
+[2024-12-16T06:29:54.355-0800] {processor.py:186} INFO - Started process (PID=44709) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-16T06:29:54.358-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-16T06:29:54.359-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:29:54.359-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-16T06:29:54.440-0800] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-16T06:29:54.776-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:29:54.776-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-16T06:29:55.102-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:29:55.102-0800] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-16T06:29:55.119-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:29:55.119-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-16T06:29:55.124-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:29:55.123-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-16T06:29:55.124-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:29:55.124-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-16T06:29:55.129-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:29:55.128-0800] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-16T06:29:55.132-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:29:55.132-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-16T06:29:55.132-0800] {logging_mixin.py:190} INFO - [2024-12-16T06:29:55.132-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-16T06:29:55.143-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.793 seconds
+[2024-12-16T14:49:41.419-0800] {processor.py:186} INFO - Started process (PID=44935) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-16T14:49:41.421-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2024-12-16T14:49:41.422-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:41.422-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-16T14:49:41.518-0800] {processor.py:925} INFO - DAG(s) 'example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py
+[2024-12-16T14:49:41.865-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:41.865-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-16T14:49:42.173-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:42.173-0800] {dag.py:3239} INFO - Sync 3 DAGs
+[2024-12-16T14:49:42.186-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:42.186-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01 00:00:00+00:00, run_after=2022-01-01 00:00:00+00:00
+[2024-12-16T14:49:42.190-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:42.190-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-16T14:49:42.191-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:42.191-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-16T14:49:42.196-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:42.196-0800] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-16T14:49:42.201-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:42.201-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2024-12-16T14:49:42.201-0800] {logging_mixin.py:190} INFO - [2024-12-16T14:49:42.201-0800] {dag.py:4180} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2024-12-16T14:49:42.211-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_subdag_operator.py took 0.798 seconds

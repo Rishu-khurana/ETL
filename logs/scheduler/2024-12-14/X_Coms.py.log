@@ -1,0 +1,442 @@
+[2024-12-14T07:10:02.441-0800] {processor.py:186} INFO - Started process (PID=15441) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:10:02.442-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:10:02.444-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:10:02.444-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:10:02.448-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:10:02.446-0800] {dagbag.py:387} ERROR - Failed to import: /Users/rishukhurana/airflow/dags/X_Coms.py
+Traceback (most recent call last):
+  File "/Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1004, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/Users/rishukhurana/airflow/dags/X_Coms.py", line 29
+    print(f"the value of xcom pull back obj is {}".format (xcom_pull_obj[0]))
+                                                  ^
+SyntaxError: f-string: empty expression not allowed
+[2024-12-14T07:10:02.448-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:10:03.147-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:10:03.147-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:10:03.613-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.179 seconds
+[2024-12-14T07:12:52.264-0800] {processor.py:186} INFO - Started process (PID=15598) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:12:52.266-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:12:52.267-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:52.267-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:12:52.755-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:52.754-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:12:53.224-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:12:53.397-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.397-0800] {override.py:1911} INFO - Created Permission View: can read on DAG:X_coms
+[2024-12-14T07:12:53.407-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.406-0800] {override.py:1911} INFO - Created Permission View: can edit on DAG:X_coms
+[2024-12-14T07:12:53.413-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.412-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG:X_coms
+[2024-12-14T07:12:53.421-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.420-0800] {override.py:1911} INFO - Created Permission View: can read on DAG Run:X_coms
+[2024-12-14T07:12:53.426-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.426-0800] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:X_coms
+[2024-12-14T07:12:53.432-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.431-0800] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:X_coms
+[2024-12-14T07:12:53.437-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.436-0800] {override.py:1911} INFO - Created Permission View: can create on DAG Run:X_coms
+[2024-12-14T07:12:53.437-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.437-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:12:53.447-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.447-0800] {dag.py:3262} INFO - Creating ORM DAG for X_coms
+[2024-12-14T07:12:53.455-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:12:53.454-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-13 00:00:00+00:00, run_after=2024-12-14 00:00:00+00:00
+[2024-12-14T07:12:53.470-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.213 seconds
+[2024-12-14T07:16:19.888-0800] {processor.py:186} INFO - Started process (PID=15830) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:16:19.890-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:16:19.891-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:16:19.891-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:16:20.448-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:16:20.447-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:16:20.994-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:16:21.075-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:16:21.074-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:16:21.092-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:16:21.091-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:16:21.115-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.233 seconds
+[2024-12-14T07:19:09.012-0800] {processor.py:186} INFO - Started process (PID=15969) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:19:09.014-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:19:09.015-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:19:09.015-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:19:09.370-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:19:09.369-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:19:09.662-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:19:09.740-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:19:09.739-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:19:09.754-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:19:09.754-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:19:09.775-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.768 seconds
+[2024-12-14T07:22:04.790-0800] {processor.py:186} INFO - Started process (PID=16149) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:22:04.792-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:22:04.794-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:22:04.793-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:22:05.294-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:22:05.293-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:22:05.733-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:22:05.816-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:22:05.815-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:22:05.834-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:22:05.833-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:22:05.850-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.067 seconds
+[2024-12-14T07:24:55.988-0800] {processor.py:186} INFO - Started process (PID=16288) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:24:55.989-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:24:55.990-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:24:55.990-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:24:56.466-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:24:56.466-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:24:56.940-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:24:57.027-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:24:57.026-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:24:57.048-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:24:57.047-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:24:57.062-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.081 seconds
+[2024-12-14T07:27:51.431-0800] {processor.py:186} INFO - Started process (PID=16429) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:27:51.434-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:27:51.435-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:27:51.435-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:27:51.806-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:27:51.806-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:27:52.110-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:27:52.196-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:27:52.196-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:27:52.212-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:27:52.212-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:27:52.228-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.803 seconds
+[2024-12-14T07:30:48.834-0800] {processor.py:186} INFO - Started process (PID=16568) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:30:48.836-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:30:48.837-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:30:48.837-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:30:49.346-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:30:49.346-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:30:49.830-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:30:49.921-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:30:49.920-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:30:49.939-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:30:49.939-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:30:49.955-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.128 seconds
+[2024-12-14T07:33:57.690-0800] {processor.py:186} INFO - Started process (PID=16729) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:33:57.692-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:33:57.693-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:33:57.693-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:33:58.188-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:33:58.188-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:33:58.692-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:33:58.788-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:33:58.787-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:33:58.807-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:33:58.807-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:33:58.823-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.138 seconds
+[2024-12-14T07:37:06.999-0800] {processor.py:186} INFO - Started process (PID=16881) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:37:07.001-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:37:07.002-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:37:07.002-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:37:07.520-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:37:07.519-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:37:08.031-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:37:08.121-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:37:08.120-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:37:08.140-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:37:08.140-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:37:08.156-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.165 seconds
+[2024-12-14T07:40:17.840-0800] {processor.py:186} INFO - Started process (PID=17032) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:40:17.842-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:40:17.844-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:40:17.843-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:40:18.268-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:40:18.268-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:40:18.596-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:40:18.692-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:40:18.692-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:40:18.711-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:40:18.711-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:40:18.729-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.894 seconds
+[2024-12-14T07:43:34.076-0800] {processor.py:186} INFO - Started process (PID=17208) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:43:34.078-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:43:34.079-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:43:34.078-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:43:34.502-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:43:34.501-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:43:34.824-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:43:34.910-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:43:34.910-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:43:34.926-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:43:34.926-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:43:34.943-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.874 seconds
+[2024-12-14T07:46:50.485-0800] {processor.py:186} INFO - Started process (PID=17391) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:46:50.488-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:46:50.489-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:46:50.489-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:46:50.901-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:46:50.901-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:46:51.202-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:46:51.288-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:46:51.288-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:46:51.304-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:46:51.304-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:46:51.319-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.839 seconds
+[2024-12-14T07:49:46.277-0800] {processor.py:186} INFO - Started process (PID=17533) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:49:46.279-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:49:46.281-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:49:46.280-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:49:46.630-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:49:46.630-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:49:46.910-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:49:46.987-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:49:46.987-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:49:47.002-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:49:47.001-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:49:47.017-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.745 seconds
+[2024-12-14T07:52:42.030-0800] {processor.py:186} INFO - Started process (PID=17701) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:52:42.033-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:52:42.034-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:52:42.034-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:52:42.649-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:52:42.649-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:52:43.111-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:52:43.261-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:52:43.260-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:52:43.288-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:52:43.287-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:52:43.311-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.285 seconds
+[2024-12-14T07:55:50.073-0800] {processor.py:186} INFO - Started process (PID=17913) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:55:50.075-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:55:50.076-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:55:50.076-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:55:50.451-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:55:50.450-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:55:50.744-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:55:50.826-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:55:50.826-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:55:50.842-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:55:50.841-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:55:50.855-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.786 seconds
+[2024-12-14T07:58:46.678-0800] {processor.py:186} INFO - Started process (PID=18055) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:58:46.680-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T07:58:46.681-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:58:46.681-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:58:47.031-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:58:47.030-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T07:58:47.309-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T07:58:47.389-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:58:47.388-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T07:58:47.404-0800] {logging_mixin.py:190} INFO - [2024-12-14T07:58:47.404-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T07:58:47.423-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.751 seconds
+[2024-12-14T08:01:37.558-0800] {processor.py:186} INFO - Started process (PID=18202) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:01:37.559-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:01:37.561-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:01:37.561-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:01:37.915-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:01:37.915-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:01:38.190-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:01:38.267-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:01:38.266-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:01:38.281-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:01:38.280-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:01:38.296-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.744 seconds
+[2024-12-14T08:04:28.118-0800] {processor.py:186} INFO - Started process (PID=18344) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:04:28.120-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:04:28.121-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:04:28.121-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:04:28.481-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:04:28.481-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:04:28.758-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:04:28.842-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:04:28.842-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:04:28.858-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:04:28.857-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:04:28.874-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.763 seconds
+[2024-12-14T08:07:21.937-0800] {processor.py:186} INFO - Started process (PID=18488) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:07:21.939-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:07:21.941-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:07:21.940-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:07:22.294-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:07:22.294-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:07:22.587-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:07:22.663-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:07:22.663-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:07:22.678-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:07:22.677-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:07:22.693-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.761 seconds
+[2024-12-14T08:10:10.089-0800] {processor.py:186} INFO - Started process (PID=18626) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:10:10.090-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:10:10.092-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:10:10.092-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:10:10.467-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:10:10.466-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:10:10.780-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:10:10.867-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:10:10.866-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:10:10.882-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:10:10.882-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:10:10.899-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.816 seconds
+[2024-12-14T08:13:01.977-0800] {processor.py:186} INFO - Started process (PID=18766) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:13:01.979-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:13:01.980-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:13:01.980-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:13:02.335-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:13:02.334-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:13:02.618-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:13:02.700-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:13:02.700-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:13:02.717-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:13:02.717-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:13:02.737-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.766 seconds
+[2024-12-14T08:15:55.641-0800] {processor.py:186} INFO - Started process (PID=18906) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:15:55.644-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:15:55.645-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:15:55.645-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:15:55.992-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:15:55.992-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:15:56.277-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:15:56.358-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:15:56.358-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:15:56.372-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:15:56.372-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:15:56.387-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.753 seconds
+[2024-12-14T08:18:50.600-0800] {processor.py:186} INFO - Started process (PID=19050) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:18:50.602-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:18:50.604-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:18:50.603-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:18:50.978-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:18:50.978-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:18:51.277-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:18:51.363-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:18:51.362-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:18:51.379-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:18:51.379-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:18:51.394-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.800 seconds
+[2024-12-14T08:21:53.675-0800] {processor.py:186} INFO - Started process (PID=19219) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:21:53.678-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:21:53.680-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:21:53.680-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:21:54.028-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:21:54.028-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:21:54.314-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:21:54.391-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:21:54.391-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:21:54.406-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:21:54.405-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:21:54.421-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.750 seconds
+[2024-12-14T08:24:48.857-0800] {processor.py:186} INFO - Started process (PID=19360) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:24:48.860-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:24:48.861-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:24:48.861-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:24:49.224-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:24:49.223-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:24:49.506-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:24:49.584-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:24:49.583-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:24:49.599-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:24:49.599-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:24:49.614-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.762 seconds
+[2024-12-14T08:27:51.102-0800] {processor.py:186} INFO - Started process (PID=19503) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:27:51.104-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:27:51.106-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:27:51.106-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:27:51.509-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:27:51.508-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:27:51.812-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:27:51.901-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:27:51.901-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:27:51.918-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:27:51.917-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:27:51.933-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.838 seconds
+[2024-12-14T08:30:51.538-0800] {processor.py:186} INFO - Started process (PID=19647) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:30:51.541-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:30:51.543-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:30:51.542-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:30:51.904-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:30:51.903-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:30:52.199-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:30:52.287-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:30:52.286-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:30:52.301-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:30:52.301-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:30:52.321-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.790 seconds
+[2024-12-14T08:33:52.183-0800] {processor.py:186} INFO - Started process (PID=19789) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:33:52.185-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:33:52.187-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:33:52.187-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:33:52.544-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:33:52.544-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:33:52.822-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:33:52.903-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:33:52.903-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:33:52.919-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:33:52.918-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:33:52.935-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.758 seconds
+[2024-12-14T08:36:41.693-0800] {processor.py:186} INFO - Started process (PID=19928) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:36:41.695-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:36:41.696-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:36:41.695-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:36:42.046-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:36:42.046-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:36:42.325-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:36:42.410-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:36:42.410-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:36:42.425-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:36:42.425-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:36:42.446-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.757 seconds
+[2024-12-14T08:39:33.169-0800] {processor.py:186} INFO - Started process (PID=20065) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:39:33.172-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:39:33.173-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:39:33.173-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:39:33.560-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:39:33.560-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:39:33.849-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:39:33.937-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:39:33.937-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:39:33.954-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:39:33.954-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:39:33.968-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.804 seconds
+[2024-12-14T08:42:31.902-0800] {processor.py:186} INFO - Started process (PID=20232) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:42:31.904-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:42:31.906-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:42:31.905-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:42:32.284-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:42:32.284-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:42:32.568-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:42:32.650-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:42:32.649-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:42:32.665-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:42:32.665-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:42:32.684-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.788 seconds
+[2024-12-14T08:45:30.808-0800] {processor.py:186} INFO - Started process (PID=20380) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:45:30.810-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:45:30.811-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:45:30.811-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:45:31.166-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:45:31.166-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:45:31.459-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:45:31.543-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:45:31.542-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:45:31.558-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:45:31.558-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:45:31.574-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.772 seconds
+[2024-12-14T08:48:29.697-0800] {processor.py:186} INFO - Started process (PID=20525) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:48:29.698-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:48:29.699-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:48:29.699-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:48:30.075-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:48:30.074-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:48:30.416-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:48:30.504-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:48:30.503-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:48:30.520-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:48:30.519-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:48:30.535-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.844 seconds
+[2024-12-14T08:51:47.492-0800] {processor.py:186} INFO - Started process (PID=20720) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:51:47.494-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:51:47.495-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:51:47.495-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:51:48.050-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:51:48.049-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:51:48.584-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:51:48.672-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:51:48.672-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:51:48.690-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:51:48.690-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:51:48.706-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.221 seconds
+[2024-12-14T08:54:51.744-0800] {processor.py:186} INFO - Started process (PID=20893) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:54:51.746-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:54:51.748-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:54:51.748-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:54:52.280-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:54:52.280-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:54:52.767-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:54:52.853-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:54:52.852-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:54:52.877-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:54:52.877-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:54:52.901-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.163 seconds
+[2024-12-14T08:58:02.268-0800] {processor.py:186} INFO - Started process (PID=21038) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:58:02.271-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T08:58:02.272-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:58:02.272-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:58:02.798-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:58:02.798-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T08:58:03.346-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T08:58:03.442-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:58:03.441-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T08:58:03.513-0800] {logging_mixin.py:190} INFO - [2024-12-14T08:58:03.513-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T08:58:03.535-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.273 seconds
+[2024-12-14T09:01:06.889-0800] {processor.py:186} INFO - Started process (PID=21180) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:01:06.891-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:01:06.892-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:01:06.892-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:01:07.462-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:01:07.461-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:01:07.920-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:01:08.031-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:01:08.031-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:01:08.058-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:01:08.058-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:01:08.083-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.200 seconds
+[2024-12-14T09:04:16.186-0800] {processor.py:186} INFO - Started process (PID=21325) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:04:16.188-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:04:16.189-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:04:16.189-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:04:16.716-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:04:16.716-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:04:17.218-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:04:17.308-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:04:17.308-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:04:17.325-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:04:17.325-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:04:17.340-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.160 seconds
+[2024-12-14T09:07:14.918-0800] {processor.py:186} INFO - Started process (PID=21469) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:07:14.920-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:07:14.921-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:07:14.921-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:07:15.439-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:07:15.439-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:07:15.865-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:07:15.960-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:07:15.959-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:07:15.978-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:07:15.977-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:07:15.994-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.080 seconds
+[2024-12-14T09:10:19.593-0800] {processor.py:186} INFO - Started process (PID=21618) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:10:19.596-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:10:19.597-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:10:19.597-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:10:20.010-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:10:20.010-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:10:20.323-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:10:20.416-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:10:20.415-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:10:20.432-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:10:20.432-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:10:20.449-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.862 seconds
+[2024-12-14T09:13:28.821-0800] {processor.py:186} INFO - Started process (PID=21777) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:13:28.823-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:13:28.824-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:13:28.824-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:13:29.357-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:13:29.357-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:13:29.843-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:13:29.937-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:13:29.937-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:13:29.955-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:13:29.955-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:13:29.971-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.156 seconds
+[2024-12-14T09:16:35.480-0800] {processor.py:186} INFO - Started process (PID=21924) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:16:35.482-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:16:35.483-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:16:35.483-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:16:36.054-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:16:36.053-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:16:36.557-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:16:36.647-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:16:36.647-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:16:36.665-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:16:36.665-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:16:36.682-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 1.207 seconds
+[2024-12-14T09:19:49.141-0800] {processor.py:186} INFO - Started process (PID=22077) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:19:49.143-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:19:49.144-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:19:49.144-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:19:49.565-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:19:49.565-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:19:49.896-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:19:49.992-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:19:49.991-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:19:50.011-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:19:50.011-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:19:50.027-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.890 seconds
+[2024-12-14T09:23:02.366-0800] {processor.py:186} INFO - Started process (PID=22253) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:23:02.369-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:23:02.370-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:23:02.370-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:23:02.722-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:23:02.721-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:23:03.004-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:23:03.081-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:23:03.081-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:23:03.098-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:23:03.098-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:23:03.113-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.754 seconds
+[2024-12-14T09:26:04.771-0800] {processor.py:186} INFO - Started process (PID=22399) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:26:04.773-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:26:04.774-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:26:04.774-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:26:05.183-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:26:05.182-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:26:05.531-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:26:05.615-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:26:05.615-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:26:05.633-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:26:05.633-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:26:05.650-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.885 seconds
+[2024-12-14T09:29:06.782-0800] {processor.py:186} INFO - Started process (PID=22557) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:29:06.784-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:29:06.786-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:29:06.785-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:29:07.137-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:29:07.137-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:29:07.434-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:29:07.512-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:29:07.512-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:29:07.526-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:29:07.526-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:29:07.545-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.768 seconds
+[2024-12-14T09:32:01.059-0800] {processor.py:186} INFO - Started process (PID=22706) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:32:01.061-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:32:01.063-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:32:01.062-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:32:01.414-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:32:01.414-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:32:01.690-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:32:01.769-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:32:01.768-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:32:01.785-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:32:01.785-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:32:01.799-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.745 seconds
+[2024-12-14T09:34:56.815-0800] {processor.py:186} INFO - Started process (PID=22850) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:34:56.817-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:34:56.819-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:34:56.818-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:34:57.167-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:34:57.166-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:34:57.444-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:34:57.521-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:34:57.521-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:34:57.539-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:34:57.538-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:34:57.555-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.744 seconds
+[2024-12-14T09:37:52.103-0800] {processor.py:186} INFO - Started process (PID=22993) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:37:52.105-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:37:52.106-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:37:52.106-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:37:52.529-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:37:52.529-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:37:52.815-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:37:52.897-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:37:52.896-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:37:52.912-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:37:52.912-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:37:52.926-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.828 seconds
+[2024-12-14T09:40:49.473-0800] {processor.py:186} INFO - Started process (PID=23136) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:40:49.476-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:40:49.477-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:40:49.477-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:40:49.842-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:40:49.841-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:40:50.156-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:40:50.232-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:40:50.232-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:40:50.249-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:40:50.249-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:40:50.273-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.806 seconds
+[2024-12-14T09:43:48.571-0800] {processor.py:186} INFO - Started process (PID=23282) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:43:48.574-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T09:43:48.575-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:43:48.575-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:43:48.927-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:43:48.927-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T09:43:49.220-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T09:43:49.305-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:43:49.304-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T09:43:49.322-0800] {logging_mixin.py:190} INFO - [2024-12-14T09:43:49.322-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T09:43:49.340-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 0.774 seconds
+[2024-12-14T11:23:41.465-0800] {processor.py:186} INFO - Started process (PID=23511) to work on /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T11:23:41.477-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/X_Coms.py for tasks to queue
+[2024-12-14T11:23:41.486-0800] {logging_mixin.py:190} INFO - [2024-12-14T11:23:41.484-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T11:23:46.234-0800] {logging_mixin.py:190} INFO - [2024-12-14T11:23:46.217-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-14T11:23:50.009-0800] {processor.py:925} INFO - DAG(s) 'X_coms' retrieved from /Users/rishukhurana/airflow/dags/X_Coms.py
+[2024-12-14T11:23:50.805-0800] {logging_mixin.py:190} INFO - [2024-12-14T11:23:50.802-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-14T11:23:50.942-0800] {logging_mixin.py:190} INFO - [2024-12-14T11:23:50.941-0800] {dag.py:4180} INFO - Setting next_dagrun for X_coms to 2024-12-14 00:00:00+00:00, run_after=2024-12-15 00:00:00+00:00
+[2024-12-14T11:23:51.064-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/X_Coms.py took 9.653 seconds

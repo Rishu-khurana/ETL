@@ -1,0 +1,27 @@
+[2024-12-14T05:54:52.260-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-14T05:54:52.268-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ex_python_operator.Load manual__2024-12-14T13:54:26.127932+00:00 [queued]>
+[2024-12-14T05:54:52.273-0800] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ex_python_operator.Load manual__2024-12-14T13:54:26.127932+00:00 [queued]>
+[2024-12-14T05:54:52.273-0800] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-14T05:54:52.284-0800] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): Load> on 2024-12-14 13:54:26.127932+00:00
+[2024-12-14T05:54:52.291-0800] {standard_task_runner.py:72} INFO - Started process 11524 to run task
+[2024-12-14T05:54:52.298-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'ex_python_operator', 'Load', 'manual__2024-12-14T13:54:26.127932+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/Python_operator_dag.py', '--cfg-path', '/var/folders/05/fw9xrgzd2xz986svxp5_g00w0000gn/T/tmplwv2q4ev']
+[2024-12-14T05:54:52.301-0800] {standard_task_runner.py:105} INFO - Job 15: Subtask Load
+[2024-12-14T05:54:52.353-0800] {task_command.py:467} INFO - Running <TaskInstance: ex_python_operator.Load manual__2024-12-14T13:54:26.127932+00:00 [running]> on host rishus-macbook-pro.local
+[2024-12-14T05:54:52.422-0800] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ex_python_operator' AIRFLOW_CTX_TASK_ID='Load' AIRFLOW_CTX_EXECUTION_DATE='2024-12-14T13:54:26.127932+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-14T13:54:26.127932+00:00'
+[2024-12-14T05:54:52.424-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-12-14T05:54:52.426-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-12-14T05:54:52.427-0800] {logging_mixin.py:190} INFO - Current task name:Load state:running start_date:2024-12-14 13:54:52.268454+00:00
+[2024-12-14T05:54:52.428-0800] {logging_mixin.py:190} INFO - Dag name:ex_python_operator and current dag run status:running
+[2024-12-14T05:54:52.429-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-14T05:54:52.430-0800] {logging_mixin.py:190} INFO - the value of p1 is ETL
+[2024-12-14T05:54:52.431-0800] {logging_mixin.py:190} INFO - the value of p2 is AIRFLOW
+[2024-12-14T05:54:52.432-0800] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-14T05:54:52.436-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-14T05:54:52.438-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=ex_python_operator, task_id=Load, run_id=manual__2024-12-14T13:54:26.127932+00:00, execution_date=20241214T135426, start_date=20241214T135452, end_date=20241214T135452
+[2024-12-14T05:54:52.446-0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-12-14T05:54:52.446-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-12-14T05:54:52.447-0800] {logging_mixin.py:190} INFO - Dag name:ex_python_operator queued_at:2024-12-14 13:54:26.155231+00:00
+[2024-12-14T05:54:52.448-0800] {logging_mixin.py:190} INFO - Task hostname:rishus-macbook-pro.local operator:PythonOperator
+[2024-12-14T05:54:52.479-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-14T05:54:52.495-0800] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-14T05:54:52.496-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

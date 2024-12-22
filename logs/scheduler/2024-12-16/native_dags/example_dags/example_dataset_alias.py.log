@@ -1,0 +1,20 @@
+[2024-12-15T22:45:19.252-0800] {processor.py:186} INFO - Started process (PID=44523) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-12-15T22:45:19.253-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2024-12-15T22:45:19.254-0800] {logging_mixin.py:190} INFO - [2024-12-15T22:45:19.254-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-12-15T22:45:19.745-0800] {processor.py:925} INFO - DAG(s) 'dataset_s3_bucket_consumer', 'dataset_alias_example_alias_producer', 'dataset_s3_bucket_producer', 'dataset_alias_example_alias_consumer' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-12-15T22:45:19.764-0800] {logging_mixin.py:190} INFO - [2024-12-15T22:45:19.764-0800] {dag.py:3239} INFO - Sync 4 DAGs
+[2024-12-15T22:45:19.780-0800] {logging_mixin.py:190} INFO - [2024-12-15T22:45:19.779-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_alias_example_alias_consumer to None, run_after=None
+[2024-12-15T22:45:19.781-0800] {logging_mixin.py:190} INFO - [2024-12-15T22:45:19.781-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_alias_example_alias_producer to None, run_after=None
+[2024-12-15T22:45:19.782-0800] {logging_mixin.py:190} INFO - [2024-12-15T22:45:19.782-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_consumer to None, run_after=None
+[2024-12-15T22:45:19.783-0800] {logging_mixin.py:190} INFO - [2024-12-15T22:45:19.783-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_producer to None, run_after=None
+[2024-12-15T22:45:19.804-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py took 0.557 seconds
+[2024-12-16T09:56:45.003-0800] {processor.py:186} INFO - Started process (PID=44829) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-12-16T09:56:45.006-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py for tasks to queue
+[2024-12-16T09:56:45.007-0800] {logging_mixin.py:190} INFO - [2024-12-16T09:56:45.007-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-12-16T09:56:45.511-0800] {processor.py:925} INFO - DAG(s) 'dataset_alias_example_alias_producer', 'dataset_s3_bucket_consumer', 'dataset_s3_bucket_producer', 'dataset_alias_example_alias_consumer' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py
+[2024-12-16T09:56:45.528-0800] {logging_mixin.py:190} INFO - [2024-12-16T09:56:45.528-0800] {dag.py:3239} INFO - Sync 4 DAGs
+[2024-12-16T09:56:45.541-0800] {logging_mixin.py:190} INFO - [2024-12-16T09:56:45.541-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_alias_example_alias_consumer to None, run_after=None
+[2024-12-16T09:56:45.543-0800] {logging_mixin.py:190} INFO - [2024-12-16T09:56:45.543-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_alias_example_alias_producer to None, run_after=None
+[2024-12-16T09:56:45.543-0800] {logging_mixin.py:190} INFO - [2024-12-16T09:56:45.543-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_consumer to None, run_after=None
+[2024-12-16T09:56:45.544-0800] {logging_mixin.py:190} INFO - [2024-12-16T09:56:45.544-0800] {dag.py:4180} INFO - Setting next_dagrun for dataset_s3_bucket_producer to None, run_after=None
+[2024-12-16T09:56:45.560-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_dataset_alias.py took 0.562 seconds

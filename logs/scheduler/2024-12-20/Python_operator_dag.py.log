@@ -1,0 +1,266 @@
+[2024-12-19T19:02:39.243-0800] {processor.py:186} INFO - Started process (PID=68388) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-19T19:02:39.245-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-19T19:02:39.246-0800] {logging_mixin.py:190} INFO - [2024-12-19T19:02:39.246-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-19T19:02:39.273-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-19T19:02:39.352-0800] {logging_mixin.py:190} INFO - [2024-12-19T19:02:39.352-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T19:02:39.365-0800] {logging_mixin.py:190} INFO - [2024-12-19T19:02:39.365-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-19T19:02:39.379-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.144 seconds
+[2024-12-19T22:51:07.530-0800] {processor.py:186} INFO - Started process (PID=68697) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-19T22:51:07.532-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-19T22:51:07.534-0800] {logging_mixin.py:190} INFO - [2024-12-19T22:51:07.533-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-19T22:51:07.555-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-19T22:51:07.635-0800] {logging_mixin.py:190} INFO - [2024-12-19T22:51:07.635-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-19T22:51:07.651-0800] {logging_mixin.py:190} INFO - [2024-12-19T22:51:07.651-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-19T22:51:07.666-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.143 seconds
+[2024-12-20T01:54:06.236-0800] {processor.py:186} INFO - Started process (PID=68887) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T01:54:06.238-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T01:54:06.239-0800] {logging_mixin.py:190} INFO - [2024-12-20T01:54:06.239-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T01:54:06.261-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T01:54:06.348-0800] {logging_mixin.py:190} INFO - [2024-12-20T01:54:06.348-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T01:54:06.362-0800] {logging_mixin.py:190} INFO - [2024-12-20T01:54:06.362-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T01:54:06.376-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.148 seconds
+[2024-12-20T08:33:36.381-0800] {processor.py:186} INFO - Started process (PID=69148) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T08:33:36.398-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T08:33:36.401-0800] {logging_mixin.py:190} INFO - [2024-12-20T08:33:36.401-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T08:33:36.431-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T08:33:36.515-0800] {logging_mixin.py:190} INFO - [2024-12-20T08:33:36.514-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T08:33:36.529-0800] {logging_mixin.py:190} INFO - [2024-12-20T08:33:36.529-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T08:33:36.544-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.169 seconds
+[2024-12-20T09:19:42.000-0800] {processor.py:186} INFO - Started process (PID=69351) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T09:19:42.002-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T09:19:42.004-0800] {logging_mixin.py:190} INFO - [2024-12-20T09:19:42.003-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T09:19:42.027-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T09:19:42.141-0800] {logging_mixin.py:190} INFO - [2024-12-20T09:19:42.141-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T09:19:42.165-0800] {logging_mixin.py:190} INFO - [2024-12-20T09:19:42.164-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T09:19:42.194-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.200 seconds
+[2024-12-20T10:08:54.325-0800] {processor.py:186} INFO - Started process (PID=69563) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:08:54.328-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:08:54.330-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:08:54.329-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:08:54.370-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:08:54.517-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:08:54.517-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:08:54.545-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:08:54.544-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:08:54.571-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.252 seconds
+[2024-12-20T10:12:36.004-0800] {processor.py:186} INFO - Started process (PID=69757) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:12:36.007-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:12:36.008-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:12:36.008-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:12:36.033-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:12:36.116-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:12:36.115-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:12:36.130-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:12:36.129-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:12:36.146-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.149 seconds
+[2024-12-20T10:15:49.978-0800] {processor.py:186} INFO - Started process (PID=69920) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:15:49.980-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:15:49.982-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:15:49.982-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:15:50.007-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:15:50.095-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:15:50.094-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:15:50.111-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:15:50.110-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:15:50.126-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.157 seconds
+[2024-12-20T10:18:58.382-0800] {processor.py:186} INFO - Started process (PID=70096) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:18:58.385-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:18:58.386-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:18:58.386-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:18:58.410-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:18:58.501-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:18:58.501-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:18:58.517-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:18:58.517-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:18:58.535-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.161 seconds
+[2024-12-20T10:21:59.097-0800] {processor.py:186} INFO - Started process (PID=70259) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:21:59.100-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:21:59.101-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:21:59.101-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:21:59.125-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:21:59.208-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:21:59.208-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:21:59.223-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:21:59.223-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:21:59.238-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.148 seconds
+[2024-12-20T10:24:54.034-0800] {processor.py:186} INFO - Started process (PID=70424) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:24:54.036-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:24:54.038-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:24:54.038-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:24:54.061-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:24:54.148-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:24:54.147-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:24:54.163-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:24:54.163-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:24:54.180-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.153 seconds
+[2024-12-20T10:27:57.859-0800] {processor.py:186} INFO - Started process (PID=70583) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:27:57.862-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:27:57.863-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:27:57.863-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:27:57.889-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:27:57.976-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:27:57.976-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:27:57.990-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:27:57.990-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:27:58.006-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.154 seconds
+[2024-12-20T10:31:03.215-0800] {processor.py:186} INFO - Started process (PID=70762) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:31:03.218-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:31:03.219-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:31:03.219-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:31:03.243-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:31:03.330-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:31:03.329-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:31:03.346-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:31:03.346-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:31:03.361-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.153 seconds
+[2024-12-20T10:34:12.146-0800] {processor.py:186} INFO - Started process (PID=70915) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:34:12.148-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:34:12.150-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:34:12.149-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:34:12.174-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:34:12.260-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:34:12.260-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:34:12.276-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:34:12.276-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:34:12.290-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.149 seconds
+[2024-12-20T10:37:25.682-0800] {processor.py:186} INFO - Started process (PID=71090) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:37:25.684-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:37:25.686-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:37:25.685-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:37:25.713-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:37:25.803-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:37:25.803-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:37:25.819-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:37:25.818-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:37:25.836-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.161 seconds
+[2024-12-20T10:40:41.469-0800] {processor.py:186} INFO - Started process (PID=71260) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:40:41.471-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:40:41.472-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:40:41.472-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:40:41.498-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:40:41.594-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:40:41.593-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:40:41.609-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:40:41.609-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:40:41.626-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.162 seconds
+[2024-12-20T10:43:48.881-0800] {processor.py:186} INFO - Started process (PID=71407) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:43:48.884-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:43:48.886-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:43:48.886-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:43:48.912-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:43:49.013-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:43:49.012-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:43:49.030-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:43:49.030-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:43:49.046-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.170 seconds
+[2024-12-20T10:47:05.018-0800] {processor.py:186} INFO - Started process (PID=71555) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:47:05.020-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:47:05.022-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:47:05.021-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:47:05.065-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:47:05.208-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:47:05.208-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:47:05.224-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:47:05.224-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:47:05.240-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.235 seconds
+[2024-12-20T10:50:19.562-0800] {processor.py:186} INFO - Started process (PID=71714) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:50:19.564-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:50:19.566-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:50:19.565-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:50:19.593-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:50:19.686-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:50:19.685-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:50:19.701-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:50:19.700-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:50:19.717-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.160 seconds
+[2024-12-20T10:53:37.781-0800] {processor.py:186} INFO - Started process (PID=71863) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:53:37.784-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:53:37.785-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:53:37.785-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:53:37.815-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:53:37.916-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:53:37.915-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:53:37.934-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:53:37.934-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:53:37.951-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.179 seconds
+[2024-12-20T10:56:54.970-0800] {processor.py:186} INFO - Started process (PID=72013) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:56:54.972-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T10:56:54.974-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:56:54.973-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:56:55.001-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T10:56:55.094-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:56:55.094-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T10:56:55.110-0800] {logging_mixin.py:190} INFO - [2024-12-20T10:56:55.109-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T10:56:55.125-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.162 seconds
+[2024-12-20T11:00:02.840-0800] {processor.py:186} INFO - Started process (PID=72158) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:00:02.842-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:00:02.844-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:00:02.844-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:00:02.871-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:00:02.964-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:00:02.964-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:00:02.979-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:00:02.979-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:00:02.995-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.159 seconds
+[2024-12-20T11:03:14.093-0800] {processor.py:186} INFO - Started process (PID=72307) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:03:14.096-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:03:14.097-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:03:14.097-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:03:14.122-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:03:14.214-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:03:14.214-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:03:14.231-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:03:14.231-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:03:14.248-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.162 seconds
+[2024-12-20T11:06:31.001-0800] {processor.py:186} INFO - Started process (PID=72469) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:06:31.003-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:06:31.005-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:06:31.005-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:06:31.032-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:06:31.127-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:06:31.127-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:06:31.144-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:06:31.144-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:06:31.160-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.167 seconds
+[2024-12-20T11:09:43.660-0800] {processor.py:186} INFO - Started process (PID=72620) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:09:43.662-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:09:43.663-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:09:43.663-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:09:43.693-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:09:43.798-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:09:43.797-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:09:43.816-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:09:43.816-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:09:43.832-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.181 seconds
+[2024-12-20T11:12:57.864-0800] {processor.py:186} INFO - Started process (PID=72784) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:12:57.867-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:12:57.868-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:12:57.868-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:12:57.898-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:12:57.995-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:12:57.995-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:12:58.012-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:12:58.012-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:12:58.029-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.173 seconds
+[2024-12-20T11:16:12.037-0800] {processor.py:186} INFO - Started process (PID=72949) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:16:12.040-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:16:12.042-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:16:12.041-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:16:12.066-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:16:12.143-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:16:12.143-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:16:12.157-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:16:12.157-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:16:12.176-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.146 seconds
+[2024-12-20T11:19:12.290-0800] {processor.py:186} INFO - Started process (PID=73096) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:19:12.293-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:19:12.294-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:19:12.294-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:19:12.318-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:19:12.396-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:19:12.395-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:19:12.410-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:19:12.410-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:19:12.424-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.142 seconds
+[2024-12-20T11:22:19.127-0800] {processor.py:186} INFO - Started process (PID=73259) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:22:19.130-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:22:19.132-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:22:19.132-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:22:19.156-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:22:19.236-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:22:19.236-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:22:19.250-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:22:19.249-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:22:19.270-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.150 seconds
+[2024-12-20T11:25:24.600-0800] {processor.py:186} INFO - Started process (PID=73429) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:25:24.602-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:25:24.604-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:25:24.604-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:25:24.627-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:25:24.707-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:25:24.706-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:25:24.721-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:25:24.721-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:25:24.736-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.144 seconds
+[2024-12-20T11:28:24.276-0800] {processor.py:186} INFO - Started process (PID=73582) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:28:24.278-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:28:24.280-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:28:24.280-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:28:24.304-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:28:24.382-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:28:24.382-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:28:24.395-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:28:24.395-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:28:24.410-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.142 seconds
+[2024-12-20T11:31:27.975-0800] {processor.py:186} INFO - Started process (PID=73741) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:31:27.979-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:31:27.980-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:31:27.980-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:31:28.005-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:31:28.088-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:31:28.087-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:31:28.103-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:31:28.103-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:31:28.120-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.149 seconds
+[2024-12-20T11:34:26.963-0800] {processor.py:186} INFO - Started process (PID=73886) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:34:26.966-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:34:26.967-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:34:26.967-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:34:26.990-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:34:27.077-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:34:27.077-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:34:27.092-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:34:27.091-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:34:27.108-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.149 seconds
+[2024-12-20T11:37:29.405-0800] {processor.py:186} INFO - Started process (PID=74031) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:37:29.407-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:37:29.409-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:37:29.409-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:37:29.434-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:37:29.519-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:37:29.518-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:37:29.534-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:37:29.533-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:37:29.548-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.151 seconds
+[2024-12-20T11:56:02.356-0800] {processor.py:186} INFO - Started process (PID=74195) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:56:02.359-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:56:02.360-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:56:02.360-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:56:02.391-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:56:02.501-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:56:02.500-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:56:02.517-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:56:02.517-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:56:02.535-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.183 seconds
+[2024-12-20T11:59:21.508-0800] {processor.py:186} INFO - Started process (PID=74376) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:59:21.510-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T11:59:21.512-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:59:21.511-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:59:21.540-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T11:59:21.635-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:59:21.635-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T11:59:21.651-0800] {logging_mixin.py:190} INFO - [2024-12-20T11:59:21.651-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T11:59:21.669-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.169 seconds
+[2024-12-20T12:04:05.484-0800] {processor.py:186} INFO - Started process (PID=74553) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T12:04:05.489-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T12:04:05.493-0800] {logging_mixin.py:190} INFO - [2024-12-20T12:04:05.493-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T12:04:05.554-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T12:04:05.737-0800] {logging_mixin.py:190} INFO - [2024-12-20T12:04:05.736-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T12:04:05.766-0800] {logging_mixin.py:190} INFO - [2024-12-20T12:04:05.766-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T12:04:05.795-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.331 seconds
+[2024-12-20T12:09:37.519-0800] {processor.py:186} INFO - Started process (PID=74799) to work on /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T12:09:37.523-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/airflow/dags/Python_operator_dag.py for tasks to queue
+[2024-12-20T12:09:37.526-0800] {logging_mixin.py:190} INFO - [2024-12-20T12:09:37.525-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T12:09:37.571-0800] {processor.py:925} INFO - DAG(s) 'ex_python_operator' retrieved from /Users/rishukhurana/airflow/dags/Python_operator_dag.py
+[2024-12-20T12:09:37.747-0800] {logging_mixin.py:190} INFO - [2024-12-20T12:09:37.746-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-20T12:09:37.778-0800] {logging_mixin.py:190} INFO - [2024-12-20T12:09:37.777-0800] {dag.py:4180} INFO - Setting next_dagrun for ex_python_operator to 2024-12-19 00:00:00+00:00, run_after=2024-12-20 00:00:00+00:00
+[2024-12-20T12:09:37.808-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/airflow/dags/Python_operator_dag.py took 0.301 seconds
