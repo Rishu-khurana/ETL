@@ -113,3 +113,18 @@
 [2024-12-22T03:30:56.910-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:30:56.910-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-12-22T03:30:56.913-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-12-22T03:30:56.998-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.099 seconds
+[2024-12-22T03:50:31.447-0800] {processor.py:186} INFO - Started process (PID=6257) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-22T03:50:31.448-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-12-22T03:50:31.449-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:50:31.449-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-22T03:50:31.452-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-22T03:50:31.533-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.091 seconds
+[2024-12-22T03:53:58.039-0800] {processor.py:186} INFO - Started process (PID=6732) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-22T03:53:58.041-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-12-22T03:53:58.043-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:53:58.043-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-22T03:53:58.045-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-22T03:53:58.135-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.099 seconds
+[2024-12-22T03:57:17.809-0800] {processor.py:186} INFO - Started process (PID=6999) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-22T03:57:17.812-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-12-22T03:57:17.813-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:57:17.813-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-22T03:57:17.816-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-12-22T03:57:17.904-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/subdags/subdag.py took 0.104 seconds
