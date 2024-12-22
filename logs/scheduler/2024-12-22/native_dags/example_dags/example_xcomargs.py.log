@@ -206,3 +206,11 @@
 [2024-12-22T03:57:57.533-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:57:57.532-0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
 [2024-12-22T03:57:57.536-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:57:57.535-0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
 [2024-12-22T03:57:57.552-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.176 seconds
+[2024-12-22T04:07:42.775-0800] {processor.py:186} INFO - Started process (PID=8082) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-22T04:07:42.777-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-12-22T04:07:42.778-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:07:42.778-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-22T04:07:42.817-0800] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-12-22T04:07:42.998-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:07:42.997-0800] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-12-22T04:07:43.007-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:07:43.007-0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-12-22T04:07:43.009-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:07:43.009-0800] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-12-22T04:07:43.026-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.255 seconds

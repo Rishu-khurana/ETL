@@ -198,3 +198,11 @@
 [2024-12-22T03:54:55.128-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:54:55.128-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-22T03:54:55.138-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:54:55.138-0800] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
 [2024-12-22T03:54:55.152-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 1.089 seconds
+[2024-12-22T04:08:01.540-0800] {processor.py:186} INFO - Started process (PID=8116) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-12-22T04:08:01.543-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2024-12-22T04:08:01.545-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:08:01.545-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-12-22T04:08:01.556-0800] {processor.py:925} INFO - DAG(s) 'example_time_delta_sensor_async' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2024-12-22T04:08:02.040-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:08:02.040-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T04:08:02.495-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:08:02.495-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T04:08:02.505-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:08:02.505-0800] {dag.py:4180} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2024-12-22T04:08:02.521-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.987 seconds

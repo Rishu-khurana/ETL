@@ -58,3 +58,8 @@
 [2024-12-22T03:53:17.663-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:53:17.663-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2024-12-22T03:53:17.687-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
 [2024-12-22T03:53:17.774-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.118 seconds
+[2024-12-22T04:06:23.647-0800] {processor.py:186} INFO - Started process (PID=8000) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-22T04:06:23.649-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py for tasks to queue
+[2024-12-22T04:06:23.651-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:06:23.651-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-22T04:06:23.672-0800] {processor.py:927} WARNING - No viable dags retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py
+[2024-12-22T04:06:23.751-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_branch_operator_decorator.py took 0.114 seconds

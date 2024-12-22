@@ -206,3 +206,11 @@
 [2024-12-22T03:58:05.620-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:58:05.620-0800] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-22T03:58:05.670-0800] {logging_mixin.py:190} INFO - [2024-12-22T03:58:05.669-0800] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-04 00:00:00+00:00, run_after=2021-01-05 00:00:00+00:00
 [2024-12-22T03:58:05.691-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 1.123 seconds
+[2024-12-22T04:07:49.532-0800] {processor.py:186} INFO - Started process (PID=8088) to work on /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-12-22T04:07:49.534-0800] {processor.py:914} INFO - Processing file /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-12-22T04:07:49.536-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:07:49.535-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-12-22T04:07:50.015-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:07:50.015-0800] {utils.py:160} INFO - NumExpr defaulting to 8 threads.
+[2024-12-22T04:07:50.433-0800] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-12-22T04:07:50.625-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:07:50.625-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-22T04:07:50.668-0800] {logging_mixin.py:190} INFO - [2024-12-22T04:07:50.668-0800] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-04 00:00:00+00:00, run_after=2021-01-05 00:00:00+00:00
+[2024-12-22T04:07:50.684-0800] {processor.py:208} INFO - Processing /Users/rishukhurana/anaconda3/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 1.156 seconds
